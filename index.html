@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chmury Wspomnień</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="hud">
+
+    <div class="counter">
+        <img src="img/chmurka1.png" alt="">
+        <span id="cloudCount">0</span> / 50
+    </div>
+
+    <div class="counter">
+        <img src="img/pieczec.png" alt="">
+        <span id="sealCount">0</span> / 5
+    </div>
+
+</div>
+
+<div id="cloudContainer"></div>
+
+<!-- Okno wiadomości -->
+<div id="modal" class="hidden">
+    <div class="modal-content">
+
+        <div id="modalText"></div>
+
+        <img id="rewardImage" src="" alt="">
+
+        <button id="closeBtn">Zamknij</button>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
