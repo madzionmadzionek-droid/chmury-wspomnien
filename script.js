@@ -89,7 +89,7 @@ function createCloud(){
     cloud.style.width = size + "px";
 
     const topPos =
-        Math.random() * (window.innerHeight - 200);
+    100 + Math.random() * (window.innerHeight - 250);
 
     cloud.style.top = topPos + "px";
 
