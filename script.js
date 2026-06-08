@@ -180,7 +180,7 @@ function clickCloud(cloud,type){
                     imageUnlocked = true;
 
                     setTimeout(()=>{
-                        showReward("img/obrazek9.png");
+                        showReward("img/obrazek 9.png");
                     },300);
                 }
             }
